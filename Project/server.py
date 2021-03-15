@@ -6,7 +6,7 @@ import json
 import logging
 
 # google places API key goes here; has been removed for security sake
-API_KEY = "AIzaSyB-tBQfOli68Z-6szwc-5y0N0I-Q21qcKo"
+API_KEY = "KEY"
 
 #server names along with corresponding ports
 server_ports = {"Riley": 15560, "Jaquez": 15561, "Juzang": 15562, "Campbell": 15563, "Bernard": 15564}
