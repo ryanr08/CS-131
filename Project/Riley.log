@@ -1,0 +1,929 @@
+INFO:serving on ('127.0.0.1', 15560)
+INFO:Riley received IAMAT client +34.06893-118.445127 1615237536.791184
+ from ('127.0.0.1', 52342)
+INFO:Riley propogated AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184 to Jaquez
+INFO:Riley propogated AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184 to Juzang
+INFO:Riley send: AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184 from ('127.0.0.1', 52348)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184 from ('127.0.0.1', 52350)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client 10 5
+ from ('127.0.0.1', 52356)
+INFO:Riley send: AT Riley +0.0023794174194335938 client +34.06893-118.445127 1615237536.791184
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwILME2YE2SeqfRWg8_-0PxtQ3ePFmnPylKbtpqgkCrzKOJi-fvagpdTk8PnoD-_nzoX9vHoOb71YuU078oScKpC7DGCPaGnhIgpKMUA3okbqs0oyzjiug2kzib6lVAas4UNOeNI4djy_efbWZC6AVby4Nj5o9dQ9ozgxEHIuAYS0DNQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwKmVFX0mMvBFPuNhTBHqWFDIUP2FV4MC8fphsg9DnWHn_wfF8SOj-dzQeI2eF4VXX7bbrfMVllcfSHbd7XLohWpqtMOLD3NFspx_9CfZCW46yeQpKTxCj7UiPRJ7c9fpGFbumiHbSaCYRsb44k5o08AXj6NuKSZ5A9DjKzLJYgb0y6o",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:serving on ('127.0.0.1', 15560)
+INFO:Riley received IAMAT client_1 +34.06893-118.445127 1615237543.477538
+ from ('127.0.0.1', 52482)
+INFO:Server Jaquez is down, skipping propogation.
+INFO:Server Juzang is down, skipping propogation.
+INFO:Riley send: AT Riley +0.0013136863708496094 client_1 +34.06893-118.445127 1615237543.477538
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_1 10 5
+ from ('127.0.0.1', 52488)
+INFO:Riley send: AT Riley +0.0013136863708496094 client_1 +34.06893-118.445127 1615237543.477538
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwJY_1MJDU6b__vYytB7qi70pN5Urk9v8DK75-M1psl2Xzv3XWgIKwONOzdsqKlI47N7JM4GEm1XRAD9SsOxw2WKjn8mbtnd-8YMAAcoCXZFBQhDDFNZ01KGGvQP3gThhIhOF6TrIGnqu6UUkyOJPzGr6rS8cClI5eWRSIhONTiI-43w",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwICeWZA13pWvd_-_BRzycFDHFVJBMUY0AJSTnC2d9k_GXXDJUdpy63v7TrzE6Fa-bUlRwgJx1XKhqnyWpFBq3GN_HSteXxecefNm_1PihxwwJ4K2Vsy38TVSuPpnUEdQGNsgy8zpp9lJReDrdwTD2Y92KTuBFU0aKZoiAsPJfphRkG1",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:Riley received IAMAT client_1 +34.06893-118.445127 1615237544.464423
+ from ('127.0.0.1', 52496)
+INFO:Server Jaquez is down, skipping propogation.
+INFO:Riley propogated AT Riley +0.0013577938079833984 client_1 +34.06893-118.445127 1615237544.464423 to Juzang
+INFO:Riley send: AT Riley +0.0013577938079833984 client_1 +34.06893-118.445127 1615237544.464423
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0013577938079833984 client_1 +34.06893-118.445127 1615237544.464423 from ('127.0.0.1', 52502)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_1 10 5
+ from ('127.0.0.1', 52504)
+INFO:Riley send: AT Riley +0.0013577938079833984 client_1 +34.06893-118.445127 1615237544.464423
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwLLtPomw2qndZrFHExPSF-UD7MmirA1veW4q5_amUeQqGHB6199BPJcjsVnJ69TWEsxsDisg5g4MiivYoILAfEFUBLy7Grziy9-8XHOH9xWGr2PLQgtud3G-M_GWtcMQe6wzDwSmlS7STOr8VSgES7fdwJFeM-KcgxYAuzi0roJBLsR",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwKxcBpfu5E_sDJcR8Kqx2neLPuBoWtGoWFppiWEvA3VN295ArS7CXL0Ih1gJguWo4C165CiKvIrBUpCYZp82xtU_o7CaKNH_OEeV04sUB9L7LgT575boikHL1KhmXAxbFr7M-oNQ_Eakb-MF6kc6IfdUs5biCd1xmwvIybiCFTnnC3I",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:Riley received IAMAT client_1 +34.06893-118.445127 1615237545.715146
+ from ('127.0.0.1', 52528)
+INFO:Server Jaquez is down, skipping propogation.
+INFO:Riley propogated AT Riley +0.0013575553894042969 client_1 +34.06893-118.445127 1615237545.715146 to Juzang
+INFO:Riley send: AT Riley +0.0013575553894042969 client_1 +34.06893-118.445127 1615237545.715146
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0013575553894042969 client_1 +34.06893-118.445127 1615237545.715146 from ('127.0.0.1', 52534)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_1 10 5
+ from ('127.0.0.1', 52536)
+INFO:Riley send: AT Riley +0.0013575553894042969 client_1 +34.06893-118.445127 1615237545.715146
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwLjDATEZS-PfDE3jHR69IYN7KtZeknNKj-Ld-3pmzQvj8Zi5GyxWGTNiX2h64hCKI8FRkKlZDYOsoC9otPxk_ZBsP4qNSwVzexEXE0iRhipcWzWVPOKUXG1hN1Gpb7fWwJJ7PDE3YwJzBQWdyZ_UU61VyV9hjDX-OOl9XXmLDn8Xkf1",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwL-3UIIGc45sB5e4uVPTZkB13UthESkP_hyQYyWGJuINl6UTpFJVa126Yyonn_IO4Zd5bVqWB8p045kIgxUIeSMu_SGpYKK_xQAM0yZklQI_dJM_WkjYasDyNiaXuPJATVEtcPHbmO6_H4IqwCGIPJpJMYp5waF6fxWyVFSGZ3umVV_",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:Riley received IAMAT client_2 +34.06893-118.445127 1615237547.7802017
+ from ('127.0.0.1', 52558)
+INFO:Riley propogated AT Riley +0.0014498233795166016 client_2 +34.06893-118.445127 1615237547.7802017 to Jaquez
+INFO:Server Juzang is down, skipping propogation.
+INFO:Riley send: AT Riley +0.0014498233795166016 client_2 +34.06893-118.445127 1615237547.7802017
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0014498233795166016 client_2 +34.06893-118.445127 1615237547.7802017 from ('127.0.0.1', 52564)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_2 10 5
+ from ('127.0.0.1', 52566)
+INFO:Riley send: AT Riley +0.0014498233795166016 client_2 +34.06893-118.445127 1615237547.7802017
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwIgEaS3roiWVrVjmHapPUljJ7rruMYmRAB5RoVpFSfNaNA1nIxAj1t2YoUk-AXLjG4SizqK_YwyL5YoAD9xM9_MaLrLwYrI1BIKQJCafUZwIU-u_Lkvnc33bWLjDewwQGFjWNgP0tU_icd8C7wlv6k--wZvrJGwAhuHs4WRABbPX04K",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwJ1OSBRvZbVMvAsdifaMN0I2d-WW9MWwX8D3D62cpXwmwdkNLMzpsF1d0pvX9u7I0thch1OyPU9IjMxPMpYQ0GK0ZThKuhD7d564fjPFE6gYjePKF3b2DmB0gBIB_Z6aSp1SUs6acuAZwnoAsiVvgyvc5yf2f7H3MWY7O3peUPfwxPR",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:Riley received IAMAT client_2 +34.06893-118.445127 1615237549.0040588
+ from ('127.0.0.1', 52586)
+INFO:Riley propogated AT Riley +0.0013306140899658203 client_2 +34.06893-118.445127 1615237549.0040588 to Jaquez
+INFO:Server Juzang is down, skipping propogation.
+INFO:Riley send: AT Riley +0.0013306140899658203 client_2 +34.06893-118.445127 1615237549.0040588
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.0013306140899658203 client_2 +34.06893-118.445127 1615237549.0040588 from ('127.0.0.1', 52592)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_2 10 5
+ from ('127.0.0.1', 52594)
+INFO:Riley send: AT Riley +0.0013306140899658203 client_2 +34.06893-118.445127 1615237549.0040588
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwIzduef1d_IfSTH5-tvWvzPTHYmYBX0aV23Q5Ok2m-1UrC2grziM5Yc8wx3oDXaPRGqQwAkV5zEIxguYodLDzl6xbik_IFhBs8oKT1R13NFp0Uo7ei7fqpnoOKmECwK_KuQ6Wdke-bpM7mnul5-PjdNeVJK-WS338OdVM6cQtgvxl5Q",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwKMUrrcmqCBusbLb94DprzoYUNag-Z7cWmc7CqCL74Nh4B1RBGMO-qoM5oNv7dPg2WB6XjRlyW6_mSdghvSbLmbmkzmrZ_l0naO3FJ1RejhMOewILpWd5UfmM5xbuncLYcn4vXlxitsqZDMEZ6E6NFmA_2cTylK8upaIpHTkoArkicv",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket
+INFO:Riley received IAMAT client_3 +34.06893-118.445127 1615237550.9526885
+ from ('127.0.0.1', 52606)
+INFO:Riley propogated AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885 to Jaquez
+INFO:Riley propogated AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885 to Juzang
+INFO:Riley send: AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885 from ('127.0.0.1', 52612)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885 from ('127.0.0.1', 52614)
+INFO:received message and not propogating
+INFO:closed the client socket
+INFO:Riley received WHATSAT client_3 10 5
+ from ('127.0.0.1', 52618)
+INFO:Riley send: AT Riley +0.001458883285522461 client_3 +34.06893-118.445127 1615237550.9526885
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">Eod</a>"
+                    ],
+                    "photo_reference": "ATtYBwIZ_arYPIp_BU80eXSqELpieNYSpI4TYA_aVvmmwLv39-GjPHZQaXGrsbefPsSSjyiAQBQjBZIM7P6q9RN8335qSvmW1vTq0DvtgyDa7JqrKQEPKl2gzKmls_zrRncHsJXVDrlLGezJg4ACBkwrpx4UR0g8X7DBViMnmZQEXgS2BWyd",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1855,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101789704485468713638\">Prabhakar rokaya</a>"
+                    ],
+                    "photo_reference": "ATtYBwITc0NLMKCbtySORm3yN4LYCl82Oe3xX5-sgtNGmnjr4wD9FvSbXgIjBChZryX-bc4zWg9Pmqie-redWQtUdYg9V8xt7bGXxXhLR_vihzo0basicD_bM0qufmMFgv_Gl8wVd3WajIvLNlQRAZw3FE3K5DfOky1meJ1qxHOQRFY9VRwV",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+INFO:closed the client socket

@@ -1,0 +1,8 @@
+I decided to go about solving my problem in two steps. The first step was to obtain a list of all reachable symbols, and the second
+step was to use that list of reachable symbols to filter out unreachable rules. I knew I had to use recursion in some way to loop
+through the list of rules and compare it to my list of known reachables. I kept running into the problem of having the rules be in 
+a different order than starting with the start symbol and only using symbols that have been defined after that. This would mean that 
+I would miss reachable nonterminals. Then I realized that I could use the computed_fixed_point function to continously call my recursive 
+function until the set of reachables does not increase. This ended up solving my problem. The actual programming proved rather difficult 
+since I was unfamiliar with Ocaml's syntax. I kept getting multiple type errors but slowly I figured Ocaml out a bit more and finally wrote 
+a working program!

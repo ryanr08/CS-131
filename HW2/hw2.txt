@@ -1,0 +1,25 @@
+I ended up implementing my make_parser based on my implementation of make_matcher.
+I figured that, since make_matcher goes through all the rules and steps needed to 
+find the proper prefix that gets accepted, then I could use that to get the parse 
+tree. First, I knew that I would start out by essentially copying my make_matcher 
+code except calling it with a preset acceptor that only accepts empty lists. Thus, 
+the parser would have to parse through the entire fragment instead of some acceptable 
+alternative. Once I figured that out, I realized that all I needed to do was add some 
+code to my already existing code to keep track of the parse tree as I go along. That 
+was the hardest part of the make_parser in my opinion, but it was doable. First I had 
+to change my acceptor to take in a parse_tree. This was required because of the way I 
+appended matchers in make_matcher and thus to append parsers I have to pass the tree 
+through the appended parsers. Once that was implemented the last thing was to build 
+the actual tree at the end of the recursive call so that a proper parse_tree could 
+be created. Overall, once I had the make_matcher, the make_parser was not too bad.
+
+The biggest weakness in my code is the fact that it parsers the grammar rules left 
+to right. This causes a problem when the start symbol occurs at the very left of 
+the first rule that the start symbol goes to. For example, when the first rule 
+of awkish_grammar is defined as "Expr -> [[N Term; N Binop; N Expr]", my code 
+has no problem parsing using that rule. However, if you switch the ordering to: 
+"Expr -> [[N Expr; N Binop; N Term]" then my code fails with the error: 
+"Stack overflow during evaluation (looping recursion?)". This is due to the fact 
+that the parser continues to try to match the start symbol all the way to infinite.
+If the order of traversal was switched, the problem would still exist but when the 
+start symbol is at the right.
